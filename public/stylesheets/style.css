@@ -131,6 +131,9 @@ nav.global a.logo:active {
   -o-box-shadow: none;
   padding: 0;
 }
+nav.global a.subset {
+  background-color: #91845a;
+}
 section.content {
   position: absolute;
   top: 25px;
@@ -146,13 +149,13 @@ nav.secondary {
   width: auto;
   height: auto;
   padding: 10px;
-  border: 1px solid #000;
+  border: 1px solid #ffa500;
   margin: 0 0 25px 0;
 }
 section.map {
   position: relative;
   min-height: 700px;
-  border: 1px solid #ffa500;
+  border: 1px solid #000;
   clear: both;
 }
 /*__________________________________________________________ media queries*/
