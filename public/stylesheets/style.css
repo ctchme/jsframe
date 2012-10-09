@@ -1,0 +1,145 @@
+/*CSS for Ctchme homepage*/
+/*Version: 0.1*/
+/*Authored: @bwhitham*/
+/*__________________________________________________________ universals*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  list-style: none;
+}
+.clear {
+  clear: both;
+}
+::-moz-selection {
+  color: inherit;
+  text-shadow: none;
+}
+::selection {
+  color: inherit;
+  text-shadow: none;
+}
+/*__________________________________________________________ typography*/
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-family: sans-serif;
+}
+p {
+  font-size: 1em;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-size: 2em;
+}
+a {
+  color: nodeph-blue;
+  text-decoration: underline;
+}
+/*__________________________________________________________ structure*/
+html {
+  width: 100%;
+  height: 100%;
+  background: url("/images/bgimage.jpg") repeat top left;
+  overflow: hidden;
+}
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+section.home {
+  background: url("/images/ctchme-home-bg.jpg") no-repeat center center fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto 0 auto;
+}
+header.global {
+  width: 100%;
+  height: 55px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-top: 2px #e6b6a4 solid;
+  background-color: #b6441a;
+  opacity: 0.8;
+  -moz-box-shadow: 0 1px 5px #000;
+  -webkit-box-shadow: 0 1px 5px #000;
+  -o-box-shadow: 0 1px 5px #000;
+}
+nav.global {
+  width: auto;
+  height: auto;
+  background-color: rgba(255,255,255,0.7);
+  -moz-box-shadow: 0 0 10px #bab382;
+  -webkit-box-shadow: 0 0 10px #bab382;
+  -o-box-shadow: 0 0 10px #bab382;
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  border-top: 3px solid #fff;
+}
+nav.global a {
+  display: block;
+  width: inherit;
+  padding: 20px 5px 20px 15px;
+  background-color: #efe8ce;
+  position: relative;
+  color: #a5a08c;
+  text-decoration: none;
+  border-bottom: #c9c3ab 2px solid;
+  border-top: #fff 2px solid;
+  letter-spacing: 2px;
+  -moz-transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  font-weight: normal;
+}
+nav.global a.logo {
+  background: url("/images/ctchmesprite.png") no-repeat 0 0;
+  width: 140px;
+  height: 140px;
+  margin: 10px 35px 0 35px;
+  padding: 0;
+  border: none;
+}
+nav.global a:hover {
+  -moz-box-shadow: inset 0 0 15px #c9c3ab;
+  -webkit-box-shadow: inset 0 0 15px #c9c3ab;
+  -o-box-shadow: inset 0 0 15px #c9c3ab;
+}
+nav.global a:active {
+  -moz-box-shadow: inset 0 3px 10px #a5a08c;
+  -webkit-box-shadow: inset 0 3px 10px #a5a08c;
+  -o-box-shadow: inset 0 3px 10px #a5a08c;
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  padding: 22px 5px 18px 15px;
+}
+nav.global a:nth-child(2) {
+  border-top: #c9c3ab 2px solid;
+}
+nav.global a.logo:hover,
+nav.global a.logo:active {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  padding: 0;
+}
+/*__________________________________________________________ media queries*/
+@media only screen and (max-width: 1440px) {
+}
+/*__________________________________________________________ small format (320x480) landscape only*/
+@media only screen and (max-width: 480px) {
+}
+/*__________________________________________________________ retina displays*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+}
+/*__________________________________________________________ printing adjustments*/
+@media print {
+}
