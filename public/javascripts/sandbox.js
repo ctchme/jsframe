@@ -3,5 +3,5 @@ $(document).ready(function(){
 
 	$('a.test').click(function(){
 		$(this).next('a.subset').show();
-	})
-})
+	});
+});
