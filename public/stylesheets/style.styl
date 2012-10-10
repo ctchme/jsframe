@@ -120,7 +120,7 @@ nav.global
 		border-bottom yellowgray 2px solid
 		border-top white 2px solid
 		letter-spacing 2px
-		transition all ease 0.3s
+		//transition all ease 0.3s
 		font-weight normal
 	
 	a.logo
@@ -136,7 +136,7 @@ nav.global
 
 	a:active
 		box-shadow inset 0 3px 10px darkyellowgray
-		transition none
+		//transition none
 		padding 22px 5px 18px 15px
 
 	a:nth-child(2)
@@ -146,13 +146,19 @@ nav.global
 		box-shadow none
 		padding 0
 
-	a.subset
-		background-color gray
+	nav.subset
+		background-color darkyellowgray
+		a
+			background-color transparent
+			border-top none
+			border-bottom none
+		a:hover, a:active
+			box-shadow none
 
 section.content
 	position absolute
 	top 25px
-	left 255px
+	left 260px
 	width 80%
 	min-width 500px;
 	height auto

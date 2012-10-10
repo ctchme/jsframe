@@ -1,9 +1,19 @@
 nav.global
 	a(href='/sandbox').logo
 	a(href='#').test Another link
-	a(href='#').subset Subset
-	a(href='#') Another link
-	a(href='#') Another link
+	nav.subset
+		a(href='#') Subset
+		a(href='#') Subset
+	a(href='#').test Another link
+	nav.subset
+		a(href='#') Subset
+		a(href='#') Subset
+		a(href='#') Subset
+		a(href='#') Subset
+	a(href='#').test Another link
+	nav.subset
+		a(href='#') Subset
+		a(href='#') Subset
 
 section.content
 	nav.secondary Secondary Header, Testing | Testing | Testing

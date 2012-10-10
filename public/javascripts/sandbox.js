@@ -1,7 +1,8 @@
 $(document).ready(function(){
-	$('a.subset').hide();
+	$('nav.subset').hide();
 
 	$('a.test').click(function(){
-		$(this).next('a.subset').show();
-	});
-});
+		$(this).next('nav.subset').slideToggle(300);
+		//$(this).text('testing');
+	})
+})
